@@ -7,6 +7,15 @@
 #    http://shiny.rstudio.com/
 #
 
+#Select to selectize
+
+#The app on the right can be used to display movies from selected studios. 
+#Currently you can only choose one studio, but we'll modify it to allow for multiple 
+#selections. Additionally, there are 211 unique studios represented in this dataset, 
+#we need a better way to select than to scroll through such a long list, 
+#and we address that with the selectize option, which will suggest names of studios 
+#as you type them.
+
 library(shiny)
 library(ggplot2)
 library(dplyr)
