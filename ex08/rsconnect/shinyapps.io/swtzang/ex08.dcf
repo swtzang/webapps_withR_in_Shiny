@@ -1,0 +1,12 @@
+name: ex08
+title: ex08
+username:
+account: swtzang
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 655472
+bundleId: 1823891
+url: https://swtzang.shinyapps.io/ex08/
+when: 1547901152.28979
+asMultiple: FALSE
+asStatic: FALSE
