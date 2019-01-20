@@ -22,12 +22,12 @@
 #In the UI: Add the appropriate output functions to display the averages and 
 #the regression output. Check the server function to find the ouput IDs, 
 #and add commas as needed.
-install.packages("shinyapps")
+#install.packages("shinyapps")
 library(shiny)
 library(dplyr)
 library(ggplot2)
 #load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_4850/datasets/movies.Rdata"))
-load("~/webapps_with_R_in_Shiny/movies.Rdata")
+load("movies.Rdata")
 
 
 # UI
