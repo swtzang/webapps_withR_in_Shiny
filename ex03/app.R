@@ -22,8 +22,8 @@
 
 library(shiny)
 library(ggplot2)
-load("~/Webapps_with_R_in_Shiny/ex01/movies.Rdata")
 
+load("movies.Rdata")
 # Define UI for application that plots features of movies
 ui <- fluidPage(
   
